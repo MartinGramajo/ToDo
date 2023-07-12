@@ -1,4 +1,6 @@
 import "./App.css";
+import FormularioTarea from "./components/FormularioTarea";
+import ListaTareas from "./components/ListaTareas";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         </h1>
         <hr className="text-white" />
       </section>
+      <FormularioTarea />
+      <ListaTareas />
       <footer className="py-5 mt-auto bg-dark">
         <h5 className="text-center text-white">
           {" "}
